@@ -95,23 +95,34 @@ Grafik menunjukkan bahwa mahasiswa dengan nilai masuk (admission grade) 120–14
 
 ## Menjalankan Sistem Machine Learning
 Model: Random Forest Classifier
+Berikut adalah tampilan dari app yang telah dibuat:
 
-- Selected Features:
-Marital status
-Application order
-Admission grade
-Debtor
-Displaced
-Gender
-Scholarship holder
-Age at enrollment
+![App Preview](https://raw.githubusercontent.com/makiatulmsyr17/asets/main/Screenshot%202025-05-24%20115556.png)
 
-- Preprocessing:
-Label encoding
-SelectKBest for feature selection
-SMOTE for class balancing
 
-- Streamlit Prototype
+**Cara Menjalankan Prototype Sistem Machine Learning:**
+
+1. **Akses Halaman Prototype:**
+   - Buka tautan yang telah disediakan untuk sistem prediksi dropout mahasiswa.
+
+2. **Isi Formulir Data Mahasiswa:**
+   - Masukkan informasi yang diperlukan sesuai dengan kolom yang tersedia:
+     - **Status Pernikahan:** Pilih status (Single/Married).
+     - **Urutan Pilihan Program Studi:** Masukkan angka antara 1 hingga jumlah program studi yang ada.
+     - **Nilai Penerimaan (0-200):** Masukkan nilai keberhasilan penerimaan.
+     - **Apakah Mahasiswa Terlantar?:** Pilih “Yes” atau “No”.
+     - **Apakah Mahasiswa Memiliki Hutang?:** Pilih “Yes” atau “No”.
+     - **Jenis Kelamin:** Pilih antara Male atau Female.
+     - **Penerima Beasiswa?:** Pilih “Yes” atau “No”.
+     - **Usia Saat Masuk Kuliah:** Masukkan usia mahasiswa.
+
+3. **Lakukan Prediksi:**
+   - Setelah semua data diisi, klik tombol **“Make Prediction”** untuk mendapatkan hasil prediksi apakah mahasiswa akan dropout atau lulus.
+
+**Link Akses Prototype:**
+- [Student Dropout Prediction](#) *https://student-dropout-prediction2.streamlit.app/*
+
+Silakan mengisi data sesuai dengan kasus yang ingin diprediksi dan tekan tombol untuk melihat hasil prediksinya. Pastikan semua data diisi dengan benar untuk akurasi yang lebih tinggi.
 
 
 - Jalankan Streamlit
@@ -150,10 +161,14 @@ Setelah dijalankan, akan muncul link seperti:
 
 ```
 Local URL: http://localhost:8501
+
+
+
 ```
 
 
-Link Deployment : 
+
+
 
 
 ## **Conclusion**
