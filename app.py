@@ -5,9 +5,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load model components
-model = joblib.load('model.pkl')
+model = joblib.load('./model/model.pkl')
 le = joblib.load(
-    'label_encoder.pkl')
+    'model/label_encoder.pkl')
 
 # Selected features
 selected_features = [
