@@ -60,7 +60,7 @@ Link Akses Dashboard : http://localhost:3000/public/dashboard/de5b61a5-9dbd-4503
 
 Dashboard ini menyajikan tampilan interaktif mengenai faktor-faktor penyebab tingginya angka Dropout Mahasiswa.
 
-Dengan menggunakan model khusus bernama, enam visualisasi utama dikembangkan untuk membantu Dosen:
+Dengan menggunakan model khusus, enam visualisasi utama dikembangkan untuk membantu Dosen:
 
 ### 1. Tingkat Dropout Mahasiswa
 
